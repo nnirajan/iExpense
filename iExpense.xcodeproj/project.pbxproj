@@ -11,6 +11,14 @@
 		6A4EB2D5295428C2008AC2AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EB2D4295428C2008AC2AB /* ContentView.swift */; };
 		6A4EB2D7295428C3008AC2AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EB2D6295428C3008AC2AB /* Assets.xcassets */; };
 		6A4EB2DA295428C3008AC2AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EB2D9295428C3008AC2AB /* Preview Assets.xcassets */; };
+		6A4EB2E329542B3A008AC2AB /* StateObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EB2E229542B3A008AC2AB /* StateObjectView.swift */; };
+		6A4EB2E629542DD6008AC2AB /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EB2E529542DD6008AC2AB /* SheetView.swift */; };
+		6A4EB2E829544653008AC2AB /* ListDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EB2E729544653008AC2AB /* ListDemoView.swift */; };
+		6A4EB2EA29544940008AC2AB /* UserDefaultDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EB2E929544940008AC2AB /* UserDefaultDemoView.swift */; };
+		6A4EB2EE29544D14008AC2AB /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EB2ED29544D14008AC2AB /* ExpenseItem.swift */; };
+		6A4EB2F029544D6E008AC2AB /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EB2EF29544D6E008AC2AB /* Expenses.swift */; };
+		6A4EB2F229544DA7008AC2AB /* ExpenseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EB2F129544DA7008AC2AB /* ExpenseListView.swift */; };
+		6A4EB2F4295453BA008AC2AB /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4EB2F3295453BA008AC2AB /* AddExpenseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		6A4EB2D4295428C2008AC2AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A4EB2D6295428C3008AC2AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A4EB2D9295428C3008AC2AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A4EB2E229542B3A008AC2AB /* StateObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectView.swift; sourceTree = "<group>"; };
+		6A4EB2E529542DD6008AC2AB /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		6A4EB2E729544653008AC2AB /* ListDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDemoView.swift; sourceTree = "<group>"; };
+		6A4EB2E929544940008AC2AB /* UserDefaultDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultDemoView.swift; sourceTree = "<group>"; };
+		6A4EB2ED29544D14008AC2AB /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		6A4EB2EF29544D6E008AC2AB /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		6A4EB2F129544DA7008AC2AB /* ExpenseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseListView.swift; sourceTree = "<group>"; };
+		6A4EB2F3295453BA008AC2AB /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +67,12 @@
 		6A4EB2D1295428C2008AC2AB /* iExpense */ = {
 			isa = PBXGroup;
 			children = (
+				6A4EB2EC29544D0A008AC2AB /* Model */,
+				6A4EB2E429542B40008AC2AB /* Modules */,
 				6A4EB2D2295428C2008AC2AB /* iExpenseApp.swift */,
-				6A4EB2D4295428C2008AC2AB /* ContentView.swift */,
 				6A4EB2D6295428C3008AC2AB /* Assets.xcassets */,
 				6A4EB2D8295428C3008AC2AB /* Preview Content */,
+				6A4EB2EB29544943008AC2AB /* Testing */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -65,6 +83,36 @@
 				6A4EB2D9295428C3008AC2AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A4EB2E429542B40008AC2AB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6A4EB2F129544DA7008AC2AB /* ExpenseListView.swift */,
+				6A4EB2F3295453BA008AC2AB /* AddExpenseView.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6A4EB2EB29544943008AC2AB /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				6A4EB2E229542B3A008AC2AB /* StateObjectView.swift */,
+				6A4EB2D4295428C2008AC2AB /* ContentView.swift */,
+				6A4EB2E529542DD6008AC2AB /* SheetView.swift */,
+				6A4EB2E729544653008AC2AB /* ListDemoView.swift */,
+				6A4EB2E929544940008AC2AB /* UserDefaultDemoView.swift */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		6A4EB2EC29544D0A008AC2AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A4EB2ED29544D14008AC2AB /* ExpenseItem.swift */,
+				6A4EB2EF29544D6E008AC2AB /* Expenses.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4EB2EE29544D14008AC2AB /* ExpenseItem.swift in Sources */,
 				6A4EB2D5295428C2008AC2AB /* ContentView.swift in Sources */,
 				6A4EB2D3295428C2008AC2AB /* iExpenseApp.swift in Sources */,
+				6A4EB2EA29544940008AC2AB /* UserDefaultDemoView.swift in Sources */,
+				6A4EB2F229544DA7008AC2AB /* ExpenseListView.swift in Sources */,
+				6A4EB2F029544D6E008AC2AB /* Expenses.swift in Sources */,
+				6A4EB2E629542DD6008AC2AB /* SheetView.swift in Sources */,
+				6A4EB2F4295453BA008AC2AB /* AddExpenseView.swift in Sources */,
+				6A4EB2E329542B3A008AC2AB /* StateObjectView.swift in Sources */,
+				6A4EB2E829544653008AC2AB /* ListDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
